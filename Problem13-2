@@ -1,0 +1,12 @@
+# Problem 13-2
+
+# Does a given string consist of only "rotatable" letters?
+# (IOSHZXN)
+
+word = input("What is the word?")
+rotate = "IOSHZXN"
+answer = "NO"
+for letter in word:
+    if letter not in rotate:
+        answer = "YES"
+print(answer)
