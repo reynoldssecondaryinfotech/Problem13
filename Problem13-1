@@ -1,0 +1,8 @@
+# Problem 13-1
+
+# Ages of youngest, middle and oldest children form an arithmetic sequence
+# given the first two, what is the age of the oldest?
+
+youngest = int(input("What is the age of the youngest? "))
+middle = int(input("What is the age of the middle? "))
+print ("The age of the oldest is " + (middle - (middle + youngest)) + ".")
